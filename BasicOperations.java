@@ -13,5 +13,27 @@ public class BasicOperations {
       BasicOperations c = new BasicOperations();
       boolean result =  c instanceof BasicOperations;
       System.out.println( result );
+
+      double d = a + b;
+      System.out.println( d );
+      d = b - a;
+      System.out.println( d );
+      d = b * a;
+      System.out.println( d );
+      d = b / a;
+      System.out.println( d );
+      d = b | a;
+      System.out.println( d );
+      d = b & a;
+      System.out.println( d );
+      d = b ^ a;
+      System.out.println( d );
+      d = ~a;
+      System.out.println( d );
+      d = 3<<2;//Move 0011 two positions left
+      System.out.println( d );
+      d = 3>>2;//Move 0011 two positions right
+      System.out.println( d );
+
    }
 }
