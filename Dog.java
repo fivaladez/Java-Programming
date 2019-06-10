@@ -1,3 +1,10 @@
+/*
+* There are three kinds of variables in Java −
+*   - Local variables
+*   - Instance variables
+*   - Class/Static variables
+*/
+
 public class Dog {
    String breed;//Instance variables
    int age;
