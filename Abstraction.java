@@ -23,6 +23,7 @@ public class Abstraction {
         b.message("A reference to SuperClass");
         a.print("Whats up!");
         b.print("Hey due!");
+        a.print2("Hello World!!");
 
     }
 }
@@ -36,12 +37,19 @@ abstract class SuperClass {
         System.out.println("The message to print in Super Class is: " + msg);
     }
 
+    abstract public void print2( String msg );
+
 }
 
 class SubClass extends SuperClass {
 
     public void message ( String msg ){
         System.out.println("The message received in Sub Class is: " + msg);
+    }
+
+    public void print2( String msg ){
+        System.out.println("The message received in Sub Class and abstract method is: " + msg);
+
     }
 
 }
