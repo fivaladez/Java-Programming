@@ -59,7 +59,7 @@ public class Inheritance extends Calculation {
 
    // display method of sub class
    public void display() {
-      System.out.println("This is the display method of subclass");
+      System.out.println("This is the display me thod of subclass");
    }
 
    public void my_method() {
